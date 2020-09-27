@@ -19,3 +19,9 @@ To install the remaining requirements run the following:
 $ conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=9.2 -c pytorch
 $ conda pip install -r requirements.txt
 ```
+For this homework, we want you to explore two of the most important applications of GANs: Image generation and image-to-image translation.
+## Part 1: Image generation
+For this part it will be used the MNIST Dataset. The idea here, is to generate images from 0 to 9 by using a conditional generatvie adversarial network (CGAN). As an example, we let you an expected sequence of generated images.
+
+
+### Running the code: 
