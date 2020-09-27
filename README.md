@@ -14,4 +14,8 @@ To create the new environment run the following line:
 ```
 $ conda create --name envname python=3.7.6
 ```
-
+To install the remaining requirements run the following: 
+```
+$ conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=9.2 -c pytorch
+$ conda pip install -r requirements.txt
+```
