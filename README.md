@@ -1,1 +1,1 @@
-# tarea-6-generative-adversarial-networks
+# Tarea 6 generative adversarial networks (GANs)
