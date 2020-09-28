@@ -35,8 +35,8 @@ When you run the code, a new folder, named images, will be created. Inside that 
 ### Report part 1
 1.  Before to start, go to the function sample_image and complete it. Follow the steps we leave you as a guide (0.5 points). 
 2.  Run the file CGAN.py and take a look of the results you obtained. How are the results? Do you consider there is a problem? If you do, named the problem and mention why it could be happening. Otherwise, justify why you consider the results are good (0.5 points).
-3.  Explore the code and understand it. Try to improve your results by changing whatever you want (batch_size, lr, sample noise, steps for G, etc). Be sure to include all the results in the report. Discuss what results are better and why. Remember that it is up to you to decide which results are better because there is no a general metric of evaluation (1.5 points).
-4.  Take the baseline model and compare it with the model that got the better results. Graph the Discriminator and Generator loss against epoch for both and discuss (0.5 points).
+3.  Explore the code and understand it. Based on your previous point answer, try to improve your results by changing whatever you want (batch_size, lr, sample noise, steps for G, etc). Discuss what results are better and why. Be sure to include all the results in the report.Remember that it is up to you to decide which results are better because there is no a general metric of evaluation (1.5 points).
+4.  Take the baseline model and compare it with the model that got the best results. Graph the Discriminator and Generator loss against epoch for both and discuss (0.5 points).
 ## Part 2: Multidomain image-to-image translation: 
 The idea here, is to translate an image into five different domains by using StarGAN. For this part it will be used the CelebA Dataset. 
 <p align="center"><img width="40%" src="http://mmlab.ie.cuhk.edu.hk/projects/celeba/intro.png" /></p>
@@ -51,6 +51,6 @@ $ python main.py
 ### Visualizing the results
 Go to the folder stargan -> stargan -> samples. Her you will find the multidomain translation results at every 1000 iterations. 
 ### Report part 2
-1.  Run the baseline model we gave you. Show your results and Describe them. Why do you think the results are not so good? (points 1.0).
+1.  Run the baseline model we gave you. Show your results and Describe them. Why do you think the results are not so good? (points 0.5).
 2.  Take the StarGAN losses functions for generator and discriminator. Change the strenght of each term to zero and visualize the results. At this part, you shold have four experiments, two for the generator loss and two for the discriminator loss. Discuss, based on the results, the importance and influence of each loss component (points 1.5).
 ## Bono
