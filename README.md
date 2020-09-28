@@ -53,7 +53,7 @@ $ python main.py
 ### Visualizing the results
 Go to the folder StarGAN -> stargan -> samples. Her you will find the multidomain translation results at every 1000 iterations. 
 ### Report part 2
-1.  Run the baseline model we gave you. Show your results and describe them. Why do you think the results are not so good?. For this point you can either use the pretrained weights we provide you or train from scratch (points 0.5).
+1.  Run the baseline model we gave you. Show your results and describe them. Why do you think the results are not so good?. For this point you can either use the pretrained weights we provide you or train from scratch. The pretrained weights are available at /media/user_home2/Data_AML/CelebA/models (points 0.5).
 2.  Take the StarGAN generator loss function, change the strength of one term to zero and visualize the results. Do the same for the discriminator loss function. Discuss, based on the results, the importance and influence of each loss function you chose. At this part, you should have two experiments: one for the generator and one for the discriminator (points 1.5).
 ## Bono
 Create a .txt file like the one in "NATALIA". Do not modify first six lines and in line number 7 put the path of an one-person face image (different to the ones provided in the dataset). Classify it according to the dataset classes ("NATALIA") and show the resulting images generated for the selected labels. Show the result and discuss (0.5 points).
