@@ -58,7 +58,9 @@ Go to the folder StarGAN -> stargan -> samples. Her you will find the multidomai
 ## Bono
 Create a .txt file like the one in /media/user_home2/Data_AML/CelebA/list_attr_celeba.txt. Do not modify the first six lines and in line number 7 put the path of a one-person face image (different to the ones provided in the dataset). Classify it according to the dataset classes and the number correspondent for each class. 
 For example, the next line shows that in a dataset of only 5 classes the image have the attributes 3 and 4 
+
 imageNew.jpg -1 -1 1 1 -1
+
 Finally, show the resulting images generated for the selected labels. Show the result and discuss it (0.5 points).
 ## Deadline
 19th October 2020 - 11:59 pm
