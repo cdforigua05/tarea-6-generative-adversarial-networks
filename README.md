@@ -22,7 +22,9 @@ $ pip install -r requirements.txt
 For this homework, we want you to explore two of the most important applications of GANs: Image generation and image-to-image translation.
 ## Part 1: Image generation
 For this part it will be used the MNIST Dataset. The idea here, is to generate images from 0 to 9 by using a conditional generatvie adversarial network (CGAN). As an example, we let you an expected sequence of generated images you sould reach.
+
 <img src="https://user-images.githubusercontent.com/66923636/94369443-53caab80-00af-11eb-9a44-1221e2a8716b.png" />
+
 ### Running the code:
 To start, run the following line: 
 ```
