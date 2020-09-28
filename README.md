@@ -1,10 +1,12 @@
 # Tarea 6 generative adversarial networks (GANs)
 Generative Adversarial Networks module for the Advanced Machine Learning course at Universidad de los Andes.
+
 Students: Natalia Suarez and Cristhian Forigua 
+
 Tutors: Camila Escobar and Angela Castillo
 
 ## Objectives:
-1.  Learn to synthesis artifitial data by using Generative Adversarial Networks.
+1.  Learn to generate artifitial data by using Generative Adversarial Networks.
 2.  Solve one of the most common problems in the framework.
 3.  Learn how to use a model for multidomain image-to-image translation.
 
@@ -21,7 +23,7 @@ $ pip install -r requirements.txt
 ```
 For this homework, we want you to explore two of the most important applications of GANs: Image generation and image-to-image translation.
 ## Part 1: Image generation
-For this part it will be used the MNIST Dataset. The idea here, is to generate images from 0 to 9 by using a conditional generatvie adversarial network (CGAN). As an example, we let you an expected sequence of generated images you sould reach.
+For this part it will be used the MNIST Dataset. The idea here, is to generate images from 0 to 9 by using a conditional generatvie adversarial network (CGAN). As an example, we left you an expected sequence of generated images you sould reach to.
 
 <img src="https://user-images.githubusercontent.com/66923636/94369443-53caab80-00af-11eb-9a44-1221e2a8716b.png" />
 
@@ -31,7 +33,7 @@ To start, run the following line:
 $ python CGAN.py
 ```
 ### Visualizing the results
-When you run the code, a new folder, named images, will be created. Inside that folder all your results will be saved. 
+When you run the code a new folder (named "images") will be created. Inside that folder all your results will be saved. 
 ### Report part 1
 1.  Before to start, go to the function sample_image and complete it. Follow the steps we leave you as a guide (0.5 points). 
 2.  Run the file CGAN.py and take a look of the results you obtained. How are the results? Do you consider there is a problem? If you do, named the problem and mention why it could be happening. Otherwise, justify why you consider the results are good (0.5 points).
