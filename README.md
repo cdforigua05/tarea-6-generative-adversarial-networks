@@ -56,7 +56,7 @@ Go to the folder StarGAN -> stargan -> samples. Her you will find the multidomai
 1.  Run the baseline model we gave you. Show your results and describe them. Why do you think the results are not so good?. For this point you can either use the pretrained weights we provide you or train from scratch (points 0.5).
 2.  Take the StarGAN generator loss function, change the strength of one term to zero and visualize the results. Do the same for the discriminator loss function. Discuss, based on the results, the importance and influence of each term loss you chose. At this part, you should have two experiments: one for the generator and one for the discriminator (points 1.5).
 ## Bono
-Select an image of a one-person face (different to the provides in the dataset).  Classify it according to the classes of the dataset and show the result images generated for the selected labels and discuss (0.5 points).
+Create an archive .txt, where you will keep the first six lines, in line number 7 put the path of an one-person face image (different to the provides in the dataset). Classify it according to the classes of the dataset and show the result images generated for the labels selected. Show the result and discuss (0.5 points).
 ## Deadline
 19th October 2020 - 11:59 pm
 ## Credits
