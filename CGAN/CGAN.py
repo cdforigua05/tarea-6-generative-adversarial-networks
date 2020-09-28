@@ -28,7 +28,7 @@ parser.add_argument("--n_classes", type=int, default=10, help="number of classes
 parser.add_argument("--img_size", type=int, default=32, help="size of each image dimension")
 parser.add_argument("--channels", type=int, default=1, help="number of image channels")
 parser.add_argument("--sample_interval", type=int, default=400, help="interval between image sampling")
-parser.add_argument("--stepsG", type=int, default=1, help="Number of stpes for training the Generator G")
+parser.add_argument("--stepsG", type=int, default=5, help="Number of stpes for training the Generator G")
 parser.add_argument("--stepsD", type=int, default=1, help = "Number of stpes for training the Descremenator D")
 parser.add_argument("--folder", type=str, default="images", help = "Folder to save the generated samples")
 opt = parser.parse_args()
