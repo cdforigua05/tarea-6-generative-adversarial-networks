@@ -96,7 +96,7 @@ if __name__ == '__main__':
     parser.add_argument('--rafd_image_dir', type=str, default='data/RaFD/train')
     parser.add_argument('--log_dir', type=str, default='stargan/logs')
     parser.add_argument('--model_save_dir', type=str, default='stargan/models')
-    # Uncomment the 100 line for second point and comment the line 101
+    # Uncomment the 100 line for second point and comment the line 101. You can also use the line 99 if you decided to train from scratch. 
     #parser.add_argument('--sample_dir', type=str, default='stargan/samples')
     parser.add_argument('--sample_dir', type=str, default='/media/user_home2/Data_AML/CelebA/')
     parser.add_argument('--result_dir', type=str, default='stargan/results')
