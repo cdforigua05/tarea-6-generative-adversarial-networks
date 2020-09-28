@@ -52,5 +52,9 @@ $ python main.py
 Go to the folder stargan -> stargan -> samples. Her you will find the multidomain translation results at every 1000 iterations. 
 ### Report part 2
 1.  Run the baseline model we gave you. Show your results and Describe them. Why do you think the results are not so good? (points 0.5).
-2.  Take the StarGAN losses functions for generator and discriminator. Change the strenght of each term to zero and visualize the results. At this part, you shold have four experiments, two for the generator loss and two for the discriminator loss. Discuss, based on the results, the importance and influence of each loss component (points 1.5).
+2.  Take the StarGAN generator loss function, change the strenght of one term to zero and visualize the results. Do the same for the discriminator loss function. Discuss, based on the results, the importance and influence of each term loss you chose. At this part, you should have two experiments: one for the generator and one for the discriminator (points 1.5).
 ## Bono
+## Deadline
+19th October 2020 - 11:59 pm
+## Credits
+This repository is adapted from Erik Linder-Norén PyTorch-GAN implemention, which can be found at https://github.com/eriklindernoren/PyTorch-GAN 
